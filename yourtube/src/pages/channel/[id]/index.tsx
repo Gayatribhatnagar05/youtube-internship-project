@@ -3,7 +3,6 @@ import Channeltabs from "@/components/Channeltabs";
 import ChannelVideos from "@/components/ChannelVideos";
 import VideoUploader from "@/components/VideoUploader";
 import { useUser } from "@/lib/AuthContext";
-import { notFound } from "next/navigation";
 import { useRouter } from "next/router";
 import React from "react";
 
